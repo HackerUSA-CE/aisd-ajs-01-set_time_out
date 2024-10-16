@@ -45,9 +45,9 @@ js-set-time-out/
 
 ##
 
-# Instructions ✅
+## Instructions ✅
 
-## 1. **Create the Project Folder and Files**
+### 1. **Create the Project Folder and Files**
    - [ ] Create a project folder named `js-set-time-out` to store your project files.
    
    - [ ] Inside the nested-objects-practice folder, create a file named `index.js`. This will be your main JavaScript file where all your code will be written
