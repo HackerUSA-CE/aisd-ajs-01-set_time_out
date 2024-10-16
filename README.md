@@ -124,61 +124,7 @@ simulateUserInput();
 
 ##
 
-### 4. **Simulate User Input with setTimeout()**
-In this step, you will create a JavaScript example to **simulate user input** using `setTimeout()`. This example will delay the processing of the input to mimic real-world scenarios, such as waiting for the user to finish typing before validating the input. You’ll also explore how **conditional logic** can evaluate the input length after the delay.
-
-- [ ] **Comment out all the code** again from the next example in your index.js file to avoid conflicts.
-
-- [ ] Add the following code to your `index.js` file:
-
-```javascript
-// Example: Simulating User Input with setTimeout
-let userInput = "Hello, world!"; // Initial input value
-console.log("User typed:", userInput); // Logs the input immediately
-
-const simulateUserInput = () => {
-  setTimeout(() => {
-    // Check if the input length is greater than 10 characters
-    if (userInput.length > 10) {
-      console.log("Long input detected!");
-    } else {
-      console.log("Short input.");
-    }
-  }, 3000); // Delay of 3 seconds
-};
-
-// Call the function to simulate delayed input processing
-simulateUserInput();
-```
-
-- [ ] Run your code using Node.js in the terminal:
-
-```bash
-node index.js
-```
-
-### Expected Output:
-
-```bash
-User typed: Hello, world!
-Long input detected!
-```
-
-- [ ] Now try changing the value of userInput to a shorter string (e.g., "Hi"), and run the code again. What happens ? 
-
-### Explanation:
-
-- **Initialized a Variable:** The `userInput` variable is set to `"Hello, world!"`.  
-- **Logged the Input Immediately:** The `console.log()` logs the user’s input before the delay.  
-- **Scheduled Code Execution:** The `setTimeout()` waits for 3 seconds before checking the input length.  
-- **Conditional Check:** After the delay, the function evaluates whether the input length is greater than 10 characters and logs the appropriate message.  
-- **Asynchronous Behavior:** JavaScript logs the input immediately, then processes the conditional logic only after the 3-second timer completes.  
-
-When you **change the input to a shorter string (e.g., `"Hi"`)**, the conditional check will result in `"Short input."` being logged instead. This shows how `setTimeout()` allows you to introduce **dynamic behavior** based on the data provided by the user. By experimenting with different input lengths, you can see how the program’s output adapts in real time, demonstrating the **flexibility and responsiveness** of asynchronous JavaScript.
-
-##
-
-### 5. **Use setTimeout() with Arrow Functions for Immediate and Delayed Greetings**
+### 4. **Use setTimeout() with Arrow Functions for Immediate and Delayed Greetings**
 
 In this step, you will explore how **arrow functions** work with `setTimeout()` to execute both immediate and delayed actions. This example demonstrates the flexibility of **arrow functions**, allowing you to schedule tasks for future execution while still executing code immediately.
 
@@ -235,7 +181,7 @@ This example shows how **arrow functions and multiple timers** allow for precise
 
 ##
 
-### 6. **Implement Store Open Logic with Nested setTimeout()**
+### 5. **Implement Store Open Logic with Nested setTimeout()**
 In this step, you will create a more complex example using **nested `setTimeout()` calls** to simulate a store's status changes. This example demonstrates how **multiple delays** can be used to execute tasks in a specific sequence. You’ll see how **nested timeouts** allow you to control when different operations occur, one after the other.
 
 - [ ] **Comment out all the code** from the previous example in your index.js file to avoid conflicts.
