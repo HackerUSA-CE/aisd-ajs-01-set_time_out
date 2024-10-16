@@ -98,7 +98,7 @@ This example highlights how **asynchronous programming** ensures that heavy oper
 ### 3. **Simulate User Input with setTimeout()**
 In this step, you will create a JavaScript example to **simulate user input** using `setTimeout()`. This example will delay the processing of the input to mimic real-world scenarios, such as waiting for the user to finish typing before validating the input. You’ll also explore how **conditional logic** can evaluate the input length after the delay.
 
-- [ ] **Comment out the code you have so far** from the first example in your `index.js` file.
+- [ ] **Comment out all the code** from the previous example in your index.js file to avoid conflicts.
 
 - [ ] Now add the following code to your `index.js` file:
 
@@ -127,7 +127,7 @@ simulateUserInput();
 ### 4. **Simulate User Input with setTimeout()**
 In this step, you will create a JavaScript example to **simulate user input** using `setTimeout()`. This example will delay the processing of the input to mimic real-world scenarios, such as waiting for the user to finish typing before validating the input. You’ll also explore how **conditional logic** can evaluate the input length after the delay.
 
-- [ ] **Comment out the code you have so far** from your first example in your `index.js` file.
+- [ ] **Comment out all the code** again from the next example in your index.js file to avoid conflicts.
 
 - [ ] Add the following code to your `index.js` file:
 
@@ -182,7 +182,7 @@ When you **change the input to a shorter string (e.g., `"Hi"`)**, the conditiona
 
 In this step, you will explore how **arrow functions** work with `setTimeout()` to execute both immediate and delayed actions. This example demonstrates the flexibility of **arrow functions**, allowing you to schedule tasks for future execution while still executing code immediately.
 
-- [ ] **Comment out the previous code** in your `index.js` again file to avoid conflicts.
+- [ ] **Comment out all the code** again from the previous example in your index.js file to avoid conflicts.
 
 - [ ] Add the following code to your `index.js` file:
 
@@ -238,7 +238,7 @@ This example shows how **arrow functions and multiple timers** allow for precise
 ### 6. **Implement Store Open Logic with Nested setTimeout()**
 In this step, you will create a more complex example using **nested `setTimeout()` calls** to simulate a store's status changes. This example demonstrates how **multiple delays** can be used to execute tasks in a specific sequence. You’ll see how **nested timeouts** allow you to control when different operations occur, one after the other.
 
-- [ ] **Comment out the previous code** in your `index.js` file again to avoid conflicts.
+- [ ] **Comment out all the code** from the previous example in your index.js file to avoid conflicts.
 
 - [ ] Add the following code to your `index.js` file:
 
