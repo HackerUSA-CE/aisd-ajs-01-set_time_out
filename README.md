@@ -319,7 +319,7 @@ By mastering these techniques, you are better prepared to build **dynamic and sc
 
 💾 **Not something to copy and paste** 💾
 
-**Note:**  This lab references a solution file located [here](https://github.com/HackerUSA-CE/aisd-jse-08-nested-objects/tree/solution) (link not shown).
+**Note:**  This lab references a solution file located [here](https://github.com/HackerUSA-CE/aisd-ajs-01-set_time_out/tree/solution) (link not shown).
 
 
 
