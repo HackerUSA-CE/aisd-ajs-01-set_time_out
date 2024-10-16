@@ -50,8 +50,10 @@ js-set-time-out/
 ## 1. **Create the Project Folder and Files**
    - [ ] Create a project folder named `js-set-time-out` to store your project files.
    
-   - [ ] Inside the nested-objects-practice folder, create a file named index.js. This will be your main JavaScript file where all your code will be written
+   - [ ] Inside the nested-objects-practice folder, create a file named `index.js`. This will be your main JavaScript file where all your code will be written
    
+   ##
+
 ### 2. **Use setTimeout() to Explore Asynchronous JavaScript**
 In this step, you will create a basic JavaScript example using `setTimeout()` to understand how **asynchronous code** behaves. This function helps schedule tasks to run later, allowing other code to execute immediately without waiting. This ensures that time-consuming operations don’t block the rest of the program, improving performance and responsiveness.
 
@@ -91,6 +93,7 @@ goodbye
 
 This example highlights how **asynchronous programming** ensures that heavy operations (like timers or network requests) don’t block the execution of other code, improving both **performance** and **user experience**.
 
+##
 
 ### 3. **Simulate User Input with setTimeout()**
 In this step, you will create a JavaScript example to **simulate user input** using `setTimeout()`. This example will delay the processing of the input to mimic real-world scenarios, such as waiting for the user to finish typing before validating the input. You’ll also explore how **conditional logic** can evaluate the input length after the delay.
@@ -119,7 +122,9 @@ const simulateUserInput = () => {
 simulateUserInput();
 ```
 
-### 3. **Simulate User Input with setTimeout()**
+##
+
+### 4. **Simulate User Input with setTimeout()**
 In this step, you will create a JavaScript example to **simulate user input** using `setTimeout()`. This example will delay the processing of the input to mimic real-world scenarios, such as waiting for the user to finish typing before validating the input. You’ll also explore how **conditional logic** can evaluate the input length after the delay.
 
 - [ ] **Comment out the code you have so far** from your first example in your `index.js` file.
@@ -171,7 +176,9 @@ Long input detected!
 
 When you **change the input to a shorter string (e.g., `"Hi"`)**, the conditional check will result in `"Short input."` being logged instead. This shows how `setTimeout()` allows you to introduce **dynamic behavior** based on the data provided by the user. By experimenting with different input lengths, you can see how the program’s output adapts in real time, demonstrating the **flexibility and responsiveness** of asynchronous JavaScript.
 
-### 4. **Use setTimeout() with Arrow Functions for Immediate and Delayed Greetings**
+##
+
+### 5. **Use setTimeout() with Arrow Functions for Immediate and Delayed Greetings**
 
 In this step, you will explore how **arrow functions** work with `setTimeout()` to execute both immediate and delayed actions. This example demonstrates the flexibility of **arrow functions**, allowing you to schedule tasks for future execution while still executing code immediately.
 
@@ -226,8 +233,9 @@ Hello from inside the timer!     // after 6 seconds
 
 This example shows how **arrow functions and multiple timers** allow for precise control over when tasks are executed. By using `setTimeout()`, developers can ensure **smooth execution and responsive behavior**, even when several operations are happening at different times.
 
+##
 
-### 5. **Implement Store Open Logic with Nested setTimeout()**
+### 6. **Implement Store Open Logic with Nested setTimeout()**
 In this step, you will create a more complex example using **nested `setTimeout()` calls** to simulate a store's status changes. This example demonstrates how **multiple delays** can be used to execute tasks in a specific sequence. You’ll see how **nested timeouts** allow you to control when different operations occur, one after the other.
 
 - [ ] **Comment out the previous code** in your `index.js` file again to avoid conflicts.
@@ -294,6 +302,8 @@ Now open!                      // after 10 seconds (5 + 2 + 3)
 
 This example demonstrates how **timed operations** can be controlled using **nested `setTimeout()` calls**, ensuring tasks run in the correct sequence. The non-blocking behavior of JavaScript ensures that **while these timers are running, other operations are not halted**, improving both **performance** and **user experience**.
 
+##
+
 ## Conclusion 📄
 
 
@@ -313,14 +323,14 @@ In this assignment, you gained hands-on experience working with the `setTimeout(
 
 By mastering these techniques, you are better prepared to build **dynamic and scalable JavaScript applications** that require precise control over timing and state. This knowledge will help you develop more **interactive user experiences** and effectively manage **time-sensitive tasks** in real-world scenarios.
 
+##
+
 ### Solution codebase 👀
 🛑 **Only use this as a reference** 🛑
 
 💾 **Not something to copy and paste** 💾
 
 **Note:**  This lab references a solution file located [here](https://github.com/HackerUSA-CE/aisd-ajs-01-set_time_out/tree/solution) (link not shown).
-
-
 
 ---
 © All rights reserved to ThriveDX
