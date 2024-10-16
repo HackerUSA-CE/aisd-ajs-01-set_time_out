@@ -121,6 +121,30 @@ const simulateUserInput = () => {
 // Call the function to simulate delayed input processing
 simulateUserInput();
 ```
+- [ ] Run your code using Node.js in the terminal:
+
+```bash
+node index.js
+```
+
+### Expected Output:
+
+```bash
+User typed: Hello, world!
+Long input detected!
+```
+
+- [ ] Now, try changing the value of userInput to a shorter string (e.g., "Hi"), and run the code again. Observe the output.
+
+### Explanation:
+
+- **Initialized a Variable:** The `userInput` variable is set to `"Hello, world!"`.  
+- **Logged the Input Immediately:** The `console.log()` logs the input before any delay.  
+- **Scheduled Code Execution:** The `setTimeout()` delays the logic check by 3 seconds, simulating input validation after a brief pause.  
+- **Conditional Check:** After 3 seconds, the program evaluates whether the input length is greater than 10 characters and logs the appropriate message.  
+- **Asynchronous Behavior:** JavaScript logs the input immediately, but the conditional logic runs only after the 3-second timer finishes.  
+
+When you **change the input to a shorter string** (e.g., `"Hi"`), the conditional check will result in `"Short input."` being logged instead. This shows how `setTimeout()` allows for **dynamic behavior** based on user input. Experimenting with different input lengths demonstrates how **asynchronous programming** creates responsive and adaptive programs.
 
 ##
 
