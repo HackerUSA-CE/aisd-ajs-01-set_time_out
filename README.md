@@ -149,7 +149,6 @@ When you **change the input to a shorter string** (e.g., `"Hi"`), the conditiona
 ##
 
 ### 4. **Use setTimeout() with Arrow Functions for Immediate and Delayed Greetings**
-
 In this step, you will explore how **arrow functions** work with `setTimeout()` to execute both immediate and delayed actions. This example demonstrates the flexibility of **arrow functions**, allowing you to schedule tasks for future execution while still executing code immediately.
 
 - [ ] **Comment out all the code** again from the previous example in your index.js file to avoid conflicts.
@@ -172,6 +171,7 @@ setTimeout(() => {
 setTimeout(() => {
   console.log("Hello from inside the timer!"); // Logs after 6 seconds
 }, 6000);
+```
 
 - [ ] Run your code using Node.js in the terminal:
 
@@ -241,6 +241,7 @@ const updateStatus = () => {
 
 // Call the function to start the store status updates
 updateStatus();
+```
 
 - [ ] Run your code using Node.js in the terminal:
 
