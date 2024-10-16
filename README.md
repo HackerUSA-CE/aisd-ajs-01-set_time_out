@@ -39,8 +39,7 @@ Your project should be structured as follows:
 
 ```plaintext
 js-set-time-out/
-│
-├── script.js (solution code)
+├── script.js
 └── README.md
 ```
 
